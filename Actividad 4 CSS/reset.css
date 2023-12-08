@@ -1,0 +1,47 @@
+/* Reset CSS */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* Establece 1rem como 10px */
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.6rem; /* 16px */
+    line-height: 1.5;
+}
+
+/* Lista sin viñetas y sin espaciado */
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilos para encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para formularios */
+input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+}

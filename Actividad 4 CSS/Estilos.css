@@ -1,0 +1,31 @@
+
+#tituloPrincipal{
+    font-size: 3.5em;
+}
+
+#logo{
+    width: 1em;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+#MenuPrincipalTop{
+    background-color: blue;
+    font-size: 2em;
+    border: 2px solid black;
+    width: 95%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hover:hover{
+    background-color: aqua;
+    transition: 1s;
+}
